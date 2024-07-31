@@ -12,4 +12,8 @@ public class UserController {
     public String getHome() {
         return "users/index";
     }
+    @GetMapping("/shop")
+    public String getShop() {
+        return "users/shop";
+    }
 }
