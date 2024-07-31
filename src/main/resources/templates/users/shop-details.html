@@ -1,6 +1,6 @@
 <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
 <html lang="zxx">
-
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Male_Fashion Template">
@@ -10,18 +10,19 @@
     <title>Male-Fashion | Template</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
-    rel="stylesheet">
+    <link th:href="@{https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap}"
+          rel="stylesheet">
+
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" th:href="@{/user/css/bootstrap.min.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/user/css/font-awesome.min.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/user/css/elegant-icons.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/user/css/magnific-popup.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/user/css/nice-select.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/user/css/owl.carousel.min.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/user/css/slicknav.min.css}" type="text/css">
+    <link rel="stylesheet" th:href="@{/user/css/style.css}" type="text/css">
 </head>
 
 <body>
@@ -644,5 +645,5 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-
+</html>
 </html>

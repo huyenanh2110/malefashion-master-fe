@@ -14,3 +14,4 @@ async function loadCategories() {
     }
 }
 window.loadCategories();
+
