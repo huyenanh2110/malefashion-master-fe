@@ -16,4 +16,18 @@ public class UserController {
     public String getShop() {
         return "users/shop";
     }
+    @GetMapping("/shop-detail")
+    public String getShopDetails() {
+        return "users/shop-details";
+    }
+    @GetMapping("/about")
+    public String about() {
+        return "users/about";
+    }
+    @GetMapping("/shopping-cart")
+    public String shoppingCart() {
+        return "users/shopping-cart";
+    }
+
+
 }
