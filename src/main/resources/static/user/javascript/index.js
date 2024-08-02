@@ -11,7 +11,7 @@ async function loadFeatureProducts() {
                     <div class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals">
                 <div class="product__item">
                     <div class="product__item__pic set-bg"
-                         th:style="'background-image: url(' + @{/user/img/product/product-1.jpg} + ');'"><span
+                         style="background-image: url(/user/img/clothes/${product.photo})"><span
                             class="label">New</span>
                         <ul class="product__hover">
                             <li><a href="#"><img th:src="@{/user/img/icon/heart.png}" alt=""></a></li>
@@ -53,4 +53,5 @@ async function loadFeatureProducts() {
         console.error('Error fetching data:', error);
     }
 }
+
 window.loadFeatureProducts()
