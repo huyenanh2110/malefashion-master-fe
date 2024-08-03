@@ -48,6 +48,7 @@ async function loadFeatureProducts() {
             
 `
             );
+
         });
     } catch (error) {
         console.error('Error fetching data:', error);
